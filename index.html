@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Electron相关软件的版本号:<br/>
+node version:
+<script>document.write(process.versions.node)</script>
+<br/>
+chrome version:
+<script>document.write(process.versions.chrome)</script>
+<br/>
+electron version:
+<script>document.write(process.versions.electron)</script>
+<br/>
+
+<script>
+    require('./renderer.js');
+</script>
+</body>
+</html>
